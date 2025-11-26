@@ -1,0 +1,4 @@
+
+{{switch(2.parceiro_bi; "KMV | Ipiranga"; "D"; "Awin"; "E"; "Premmia"; "F"; "CRM Bonus"; "G"; "Epay"; "H"; "PicPay"; "I"; "Easylive"; "J"; "Others"; "K")}}{{1.dia + 5}}
+
+{{map("{" + 1.dia + ", " + 1.parceiro_bi + " , " + 1.valor + "}"; )}}
